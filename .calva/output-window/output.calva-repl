@@ -1,0 +1,3777 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::user=> 
+
+; Jack-in done.
+clj::user=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+#'ice-melting-sim.core/setup
+clj::ice-melting-sim.core=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error (ClassNotFoundException) compiling at (src/ice_melting_sim/double_pendulum.clj:7:11).
+; Math.PI
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7102)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error (ClassNotFoundException) compiling at (src/ice_melting_sim/double_pendulum.clj:7:11).
+; Math.PI
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:1020)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7102)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+0.523598775598299
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:14:40).
+; Unable to find static field: pi in class java.lang.Math
+; Evaluation of file double_pendulum.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/setup
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/setup
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/setup
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause Wrong number of args (3) passed to: quil.core/ellipse
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (3) passed to: quil.core/ellipse
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 40]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 15]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+ 
+ [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (3) passed to: quil.core/ellipse
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:40)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:15)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw 
+(PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :draw  function:  #error {
+ :cause quil.core$width cannot be cast to java.lang.Number
+ :via
+ [{:type java.lang.ClassCastException
+   :message quil.core$width cannot be cast to java.lang.Number
+   :at [clojure.lang.Numbers divide Numbers.java 189]}]
+ :trace
+ [[clojure.lang.Numbers divide Numbers.java 189]
+  [clojure.lang.Numbers divide Numbers.java 3881]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic form-init12335518014890708562.clj 14]
+  [ice_melting_sim.double_pendulum$draw_state invoke form-init12335518014890708562.clj 11]
+  [clojure.lang.Var invoke Var.java 384]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet
+.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: quil.core$width cannot be cast to java.lang.Number
+ at clojure.lang.Numbers.divide (Numbers.java:189)
+    clojure.lang.Numbers.divide (Numbers.java:3881)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (form-init12335518014890708562.clj:14)
+    ice_melting_sim.double_pendulum$draw_state.invoke (form-init12335518014890708562.clj:11)
+    clojure.lang.Var.invoke (Var.java:384)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing
+.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/setup
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :key-pressed  function:  #error {
+ :cause Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 36]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 421]
+  [clojure.lang.Atom swap Atom.java 51]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2353]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_handler$fn__14352 invoke fun_mode.cljc 43]
+  [quil.middlewares.safe_fns$wrap_fn$fn__26
+0 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_keyPressed invokeStatic applet.clj 252]
+  [quil.applet$_keyPressed invoke applet.clj 252]
+  [quil.Applet keyPressed nil -1]
+  [processing.core.PApplet keyPressed PApplet.java 3121]
+  [quil.Applet keyPressedParent nil -1]
+  [sun.reflect.NativeMethodAccessorImpl invoke0 NativeMethodAccessorImpl.java -2]
+  [sun.reflect.NativeMethodAccessorImpl invoke NativeMethodAccessorImpl.java 62]
+  [sun.reflect.DelegatingMethodAccessorImpl invoke DelegatingMethodAccessorImpl.java 43]
+  [java.lang.reflect.Method invoke Method.java 498]
+  [clojure.lang.Reflector invokeMatchingMethod Reflector.java 167]
+  [clojure.lang.Reflector invokeInstanceMethod Reflector.java 102]
+  [quil.applet$_keyPressed invokeStatic applet.clj 252]
+  [quil.applet$_keyPressed invoke applet.clj 252]
+  [quil.Applet keyPressed nil -1]
+  [processing.core.PApplet handleKeyEvent PApplet.java 2996]
+  [quil.Applet handle
+KeyEvent nil -1]
+  [processing.core.PApplet dequeueEvents PApplet.java 2648]
+  [quil.Applet dequeueEvents nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2486]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:36)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    clojure.lang.Atom.swap (Atom.java:51)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2353)
+    clojure.core$swap_BAN
+G_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_handler$fn__14352.invoke (fun_mode.cljc:43)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_keyPressed.invokeStatic (applet.clj:252)
+    quil.applet$_keyPressed.invoke (applet.clj:252)
+    quil.Applet.keyPressed (:-1)
+    processing.core.PApplet.keyPressed (PApplet.java:3121)
+    quil.Applet.keyPressedParent (:-1)
+    sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke (Method.java:498)
+    clojure.lang.Reflector.invokeMatchingMethod (Reflector.java:167)
+    clojure.lang.Reflector.invokeInstanceMethod (Reflector.java:102)
+    quil.applet$_keyPressed.invokeStatic (applet.clj:2
+52)
+    quil.applet$_keyPressed.invoke (applet.clj:252)
+    quil.Applet.keyPressed (:-1)
+    processing.core.PApplet.handleKeyEvent (PApplet.java:2996)
+    quil.Applet.handleKeyEvent (:-1)
+    processing.core.PApplet.dequeueEvents (PApplet.java:2648)
+    quil.Applet.dequeueEvents (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2486)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :key-pressed  function:  #error {
+ :cause Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 36]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 421]
+  [clojure.lang.Atom swap Atom.java 51]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2353]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_handler$fn__14352 invoke fun_mode.cljc 43]
+  [quil.middlewares.safe_fns$wrap_fn$fn__26
+0 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_keyPressed invokeStatic applet.clj 252]
+  [quil.applet$_keyPressed invoke applet.clj 252]
+  [quil.Applet keyPressed nil -1]
+  [processing.core.PApplet keyPressed PApplet.java 3121]
+  [quil.Applet keyPressedParent nil -1]
+  [sun.reflect.NativeMethodAccessorImpl invoke0 NativeMethodAccessorImpl.java -2]
+  [sun.reflect.NativeMethodAccessorImpl invoke NativeMethodAccessorImpl.java 62]
+  [sun.reflect.DelegatingMethodAccessorImpl invoke DelegatingMethodAccessorImpl.java 43]
+  [java.lang.reflect.Method invoke Method.java 498]
+  [clojure.lang.Reflector invokeMatchingMethod Reflector.java 167]
+  [clojure.lang.Reflector invokeInstanceMethod Reflector.java 102]
+  [quil.applet$_keyPressed invokeStatic applet.clj 252]
+  [quil.applet$_keyPressed invoke applet.clj 252]
+  [quil.Applet keyPressed nil -1]
+  [processing.core.PApplet handleKeyEvent PApplet.java 2996]
+  [quil.Applet handle
+KeyEvent nil -1]
+  [processing.core.PApplet dequeueEvents PApplet.java 2648]
+  [quil.Applet dequeueEvents nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2486]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:36)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    clojure.lang.Atom.swap (Atom.java:51)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2353)
+    clojure.core$swap_BAN
+G_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_handler$fn__14352.invoke (fun_mode.cljc:43)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_keyPressed.invokeStatic (applet.clj:252)
+    quil.applet$_keyPressed.invoke (applet.clj:252)
+    quil.Applet.keyPressed (:-1)
+    processing.core.PApplet.keyPressed (PApplet.java:3121)
+    quil.Applet.keyPressedParent (:-1)
+    sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke (Method.java:498)
+    clojure.lang.Reflector.invokeMatchingMethod (Reflector.java:167)
+    clojure.lang.Reflector.invokeInstanceMethod (Reflector.java:102)
+    quil.applet$_keyPressed.invokeStatic (applet.clj:2
+52)
+    quil.applet$_keyPressed.invoke (applet.clj:252)
+    quil.Applet.keyPressed (:-1)
+    processing.core.PApplet.handleKeyEvent (PApplet.java:2996)
+    quil.Applet.handleKeyEvent (:-1)
+    processing.core.PApplet.dequeueEvents (PApplet.java:2648)
+    quil.Applet.dequeueEvents (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2486)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+Exception in  :key-pressed  function:  #error {
+ :cause Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+ :via
+ [{:type clojure.lang.ArityException
+   :message Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+   :at [clojure.lang.AFn throwArity AFn.java 429]}]
+ :trace
+ [[clojure.lang.AFn throwArity AFn.java 429]
+  [clojure.lang.AFn invoke AFn.java 36]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 421]
+  [clojure.lang.Atom swap Atom.java 51]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2353]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_handler$fn__14352 invoke fun_mode.cljc 43]
+  [quil.middlewares.safe_fns$wrap_fn$fn__26
+0 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_keyPressed invokeStatic applet.clj 252]
+  [quil.applet$_keyPressed invoke applet.clj 252]
+  [quil.Applet keyPressed nil -1]
+  [processing.core.PApplet keyPressed PApplet.java 3121]
+  [quil.Applet keyPressedParent nil -1]
+  [sun.reflect.NativeMethodAccessorImpl invoke0 NativeMethodAccessorImpl.java -2]
+  [sun.reflect.NativeMethodAccessorImpl invoke NativeMethodAccessorImpl.java 62]
+  [sun.reflect.DelegatingMethodAccessorImpl invoke DelegatingMethodAccessorImpl.java 43]
+  [java.lang.reflect.Method invoke Method.java 498]
+  [clojure.lang.Reflector invokeMatchingMethod Reflector.java 167]
+  [clojure.lang.Reflector invokeInstanceMethod Reflector.java 102]
+  [quil.applet$_keyPressed invokeStatic applet.clj 252]
+  [quil.applet$_keyPressed invoke applet.clj 252]
+  [quil.Applet keyPressed nil -1]
+  [processing.core.PApplet handleKeyEvent PApplet.java 2996]
+  [quil.Applet handle
+KeyEvent nil -1]
+  [processing.core.PApplet dequeueEvents PApplet.java 2648]
+  [quil.Applet dequeueEvents nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2486]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  clojure.lang.ArityException: Wrong number of args (2) passed to: quil.middlewares.pause-on-error/wrap-key-pressed/fn--14400
+ at clojure.lang.AFn.throwArity (AFn.java:429)
+    clojure.lang.AFn.invoke (AFn.java:36)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    clojure.lang.Atom.swap (Atom.java:51)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2353)
+    clojure.core$swap_BAN
+G_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_handler$fn__14352.invoke (fun_mode.cljc:43)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_keyPressed.invokeStatic (applet.clj:252)
+    quil.applet$_keyPressed.invoke (applet.clj:252)
+    quil.Applet.keyPressed (:-1)
+    processing.core.PApplet.keyPressed (PApplet.java:3121)
+    quil.Applet.keyPressedParent (:-1)
+    sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke (Method.java:498)
+    clojure.lang.Reflector.invokeMatchingMethod (Reflector.java:167)
+    clojure.lang.Reflector.invokeInstanceMethod (Reflector.java:102)
+    quil.applet$_keyPressed.invokeStatic (applet.clj:2
+52)
+    quil.applet$_keyPressed.invoke (applet.clj:252)
+    quil.Applet.keyPressed (:-1)
+    processing.core.PApplet.handleKeyEvent (PApplet.java:2996)
+    quil.Applet.handleKeyEvent (:-1)
+    processing.core.PApplet.dequeueEvents (PApplet.java:2648)
+    quil.Applet.dequeueEvents (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2486)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+p/stroke-weight
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1:7962).
+; No such namespace: p
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+q/stroke-weight
+#function[quil.core/stroke-weight]
+clj::ice-melting-sim.double-pendulum=> 
+q/current-stroke-weight
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1:7962).
+; No such var: q/current-stroke-weight
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight q)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1283:1).
+; Unable to resolve symbol: q in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:986)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight q/current-gr)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1312:1).
+; No such var: q/current-gr
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$HostExpr$Parser/parse (Compiler.java:986)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight q/current-graphics)
+; Execution error (ClassCastException) at ice-melting-sim.double-pendulum/eval57954 (form-init12335518014890708562.clj:1341).
+; quil.core$current_graphics cannot be cast to processing.core.PGraphics
+ice-melting-sim.double-pendulum/eval57954 (form-init12335518014890708562.clj:1341)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+q/current-graphics
+#function[quil.core/current-graphics]
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight (q/current-graphics))
+#function[quil.core/current-graphics]
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight q/current-graphics)
+; Execution error (ClassCastException) at ice-melting-sim.double-pendulum/eval57956 (form-init12335518014890708562.clj:1368).
+; quil.core$current_graphics cannot be cast to processing.core.PGraphics
+ice-melting-sim.double-pendulum/eval57956 (form-init12335518014890708562.clj:1368)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight (q/current-graphics))
+#function[quil.core/current-graphics]
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight (q/current-graphics))
+; Execution error (NullPointerException) at quil.core/current-graphics (core.cljc:43).
+; null
+quil.core/current-graphics (core.cljc:43)
+quil.core/current-graphics (core.cljc:25)
+ice-melting-sim.double-pendulum/eval57958 (form-init12335518014890708562.clj:1392)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+(q/current-graphics)
+; Execution error (NullPointerException) at quil.core/current-graphics (core.cljc:43).
+; null
+quil.core/current-graphics (core.cljc:43)
+quil.core/current-graphics (core.cljc:25)
+ice-melting-sim.double-pendulum/eval57960 (form-init12335518014890708562.clj:1415)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+(.strokeWeight (q/current-graphics))
+; Execution error (NullPointerException) at quil.core/current-graphics (core.cljc:43).
+; null
+quil.core/current-graphics (core.cljc:43)
+quil.core/current-graphics (core.cljc:25)
+ice-melting-sim.double-pendulum/eval58039 (form-init12335518014890708562.clj:1441)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+(q/current-graphics)
+; Execution error (NullPointerException) at quil.core/current-graphics (core.cljc:43).
+; null
+quil.core/current-graphics (core.cljc:43)
+quil.core/current-graphics (core.cljc:25)
+ice-melting-sim.double-pendulum/eval58041 (form-init12335518014890708562.clj:1464)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/weight
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+1.0
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 
+#'ice-melting-sim.double-pendulum/with-stroke-weight
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Unexpected error (NullPointerException) macroexpanding with-stroke-weight at (src/ice_melting_sim/double_pendulum.clj:24:5).
+; null
+clojure.lang.Compiler/macroexpand1 (Compiler.java:7019)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7093)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Unexpected error (NullPointerException) macroexpanding with-stroke-weight at (src/ice_melting_sim/double_pendulum.clj:11:1).
+; null
+clojure.lang.Compiler/macroexpand1 (Compiler.java:7019)
+clojure.core/macroexpand-1 (core.clj:4024)
+clojure.core/macroexpand (core.clj:4026)
+ice-melting-sim.double-pendulum/eval62832 (form-init12335518014890708562.clj:11)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/with-stroke-weight
+clj::ice-melting-sim.double-pendulum=> 
+(let*
+ [old__62946__auto__ (.strokeWeight (quil.core/current-graphics))]
+ (quil.core/stroke-weight 5)
+ (q/line [1 2] [3 4])
+ (quil.core/stroke-weight old__62946__auto__))
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+{:angle -0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+{:angle -0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+0.7853981633974483
+clj::ice-melting-sim.double-pendulum=> 
+{:angle -0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+0.7853981633974483
+clj::ice-melting-sim.double-pendulum=> 
+{:angle -0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+{:angle -0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic form-init12335518014890708562.clj 18]
+  [ice_melting_sim.double_pendulum$update_state invoke form-init12335518014890708562.clj 16]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middleware
+s.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (form-init12335518014890708562.clj:18)
+    ice_melting_sim.double_pendulum$update_state.invoke (form-init12335518014890708562.clj:16)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (c
+ore.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+{:velocity 7.071067811865475, :angle 0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+0.7853981633974483
+clj::ice-melting-sim.double-pendulum=> 
+{:velocity 7.071067811865475, :angle 0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+{:velocity 0.7071067811865475, :angle 0.7853981633974483}
+clj::ice-melting-sim.double-pendulum=> 
+({:angle 0.7853981633974483, :velocity 0}
+ {:velocity 0.7071067811865475, :angle 0.7853981633974483}
+ {:velocity 1.414213562373095, :angle 1.4925049445839957}
+ {:velocity 2.411150357258492, :angle 2.9067185069570907}
+ {:velocity 2.643870946722622, :angle 5.3178688642155825}
+ {:velocity 1.821641883510169, :angle 7.961739810938204}
+ {:velocity 2.8158415870878386, :angle 9.783381694448373}
+ {:velocity 2.4648744579927437, :angle 12.599223281536212}
+ {:velocity 2.4977212158537774, :angle 15.064097739528956}
+ {:velocity 3.098012711708207, :angle 17.561818955382734})
+clj::ice-melting-sim.double-pendulum=> 
+({:angle -0.7853981633974483, :velocity 0}
+ {:velocity -0.7071067811865475, :angle -0.7853981633974483}
+ {:velocity -1.414213562373095, :angle -1.4925049445839957}
+ {:velocity -2.411150357258492, :angle -2.9067185069570907}
+ {:velocity -2.643870946722622, :angle -5.3178688642155825}
+ {:velocity -1.821641883510169, :angle -7.961739810938204}
+ {:velocity -2.8158415870878386, :angle -9.783381694448373}
+ {:velocity -2.4648744579927437, :angle -12.599223281536212}
+ {:velocity -2.4977212158537774, :angle -15.064097739528956}
+ {:velocity -3.098012711708207, :angle -17.561818955382734})
+clj::ice-melting-sim.double-pendulum=> 
+({:angle -0.7853981633974483, :velocity 0}
+ {:velocity -0.7071067811865475, :angle -0.7853981633974483}
+ {:velocity -1.414213562373095, :angle -1.4925049445839957}
+ {:velocity -2.411150357258492, :angle -2.9067185069570907}
+ {:velocity -2.643870946722622, :angle -5.3178688642155825}
+ {:velocity -1.821641883510169, :angle -7.961739810938204}
+ {:velocity -2.8158415870878386, :angle -9.783381694448373}
+ {:velocity -2.4648744579927437, :angle -12.599223281536212}
+ {:velocity -2.4977212158537774, :angle -15.064097739528956}
+ {:velocity -3.098012711708207, :angle -17.561818955382734})
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/angle
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/velocity
+clj::ice-melting-sim.double-pendulum=> 
+-0.8509035245341184
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:1:7962).
+; Unable to find static field: sin in class java.lang.Math
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+-45
+clj::ice-melting-sim.double-pendulum=> 
+-0.8509035245341184
+clj::ice-melting-sim.double-pendulum=> 
+-0.8509035245341184
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/gravity
+clj::ice-melting-sim.double-pendulum=> 
+0.8509035245341184
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+({:angle -0.7853981633974483, :velocity 0}
+ {:velocity 0.7071067811865475, :angle -0.07829138221090082}
+ {:velocity 0.7853182062063758, :angle 0.707026823995475}
+ {:velocity 0.13574205622537283, :angle 0.8427688802208478}
+ {:velocity -0.610746331525593, :angle 0.23202254869525485}
+ {:velocity -0.8406926751209483, :angle -0.6086701264256934}
+ {:velocity -0.26891574951456465, :angle -0.877585875940258}
+ {:velocity 0.5002827230415028, :angle -0.37730315289875527}
+ {:velocity 0.8686973801112702, :angle 0.4913942272125149}
+ {:velocity 0.39684177727427655, :angle 0.8882360044867914})
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/setup
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update-state
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:38:5).
+; Unable to resolve symbol: draw-pendulum in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:30:7).
+; Unable to resolve symbol: x-origin in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$VectorExpr/parse (Compiler.java:3260)
+clojure.lang.Compiler/analyze (Compiler.java:6791)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$LetExpr$Parser/parse (Compiler.java:6436)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-pendulum
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-state
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-pendulum
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/draw-pendulum
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/zip
+clj::ice-melting-sim.double-pendulum=> 
+([0 0] [1 1] [2 2] [3 3] [4 4] [5 5] [6 6] [7 7] [8 8] [9 9])
+clj::ice-melting-sim.double-pendulum=> 
+([0 4] [1 5] [2 6] [3 7] [4 8] [5 9] [6 10] [7 11] [8 12] [9 13])
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :draw  function:  #error {
+ :cause nth not supported on this type: Double
+ :via
+ [{:type java.lang.UnsupportedOperationException
+   :message nth not supported on this type: Double
+   :at [clojure.lang.RT nthFrom RT.java 991]}]
+ :trace
+ [[clojure.lang.RT nthFrom RT.java 991]
+  [clojure.lang.RT nth RT.java 940]
+  [ice_melting_sim.double_pendulum$draw_pendulum invokeStatic double_pendulum.clj 34]
+  [ice_melting_sim.double_pendulum$draw_pendulum invoke double_pendulum.clj 34]
+  [ice_melting_sim.double_pendulum$draw_state invokeStatic double_pendulum.clj 47]
+  [ice_melting_sim.double_pendulum$draw_state invoke double_pendulum.clj 40]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [quil.middlewar
+es.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 16]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.UnsupportedOperationException: nth not supported on this type: Double
+ at clojure.lang.RT.nthFrom (RT.java:991)
+    clojure.lang.RT.nth (RT.java:940)
+    ice_melting_sim.double_pendulum$draw_pendulum.invokeStatic (double_pendulum.clj:34)
+    ice_melting_sim.double_pendulum$draw_pendulum.invoke (double_pendulum.clj:34)
+    ice_melting_sim.double_pendulum$draw_state.invokeStatic (double_pendulum.clj:47)
+
+    ice_melting_sim.double_pendulum$draw_state.invoke (double_pendulum.clj:40)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:16)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfa
+ceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+; Execution error (NullPointerException) at quil.core/width (core.cljc:4685).
+; null
+clojure.lang.Compiler$InvokeExpr/eval (Compiler.java:3707)
+clojure.lang.Compiler$DefExpr/eval (Compiler.java:457)
+clojure.lang.Compiler/eval (Compiler.java:7182)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/state
+clj::ice-melting-sim.double-pendulum=> 
+[200.00000000000003 309.8076211353316]
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/y-origin
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/pendulum-xys
+clj::ice-melting-sim.double-pendulum=> 
+([[50 60] 319.8076211353316] [319.8076211353316 200.00000000000003])
+clj::ice-melting-sim.double-pendulum=> 
+(clojure.pprint/pp)
+([[50 60] 319.8076211353316] [319.8076211353316 200.00000000000003])
+nil
+clj::ice-melting-sim.double-pendulum=> 
+pendulum-xys
+[200.00000000000003 319.8076211353316]
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/pendulum-pos
+clj::ice-melting-sim.double-pendulum=> 
+; Execution error (ClassCastException) at ice-melting-sim.double-pendulum/pendulum-pos (form-init12335518014890708562.clj:28).
+; clojure.lang.PersistentArrayMap cannot be cast to java.lang.Number
+clojure.lang.Compiler$InvokeExpr/eval (Compiler.java:3707)
+clojure.lang.Compiler$DefExpr/eval (Compiler.java:457)
+clojure.lang.Compiler/eval (Compiler.java:7182)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/pendulum-pos
+clj::ice-melting-sim.double-pendulum=> 
+; Execution error (IllegalArgumentException) at ice-melting-sim.double-pendulum/eval112020 (form-init12335518014890708562.clj:46).
+; Key must be integer
+clojure.lang.APersistentVector/invoke (APersistentVector.java:294)
+ice-melting-sim.double-pendulum/eval112020 (form-init12335518014890708562.clj:46)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Execution error (ArityException) at ice-melting-sim.double-pendulum/eval112484 (form-init12335518014890708562.clj:46).
+; Wrong number of args (2) passed to: clojure.lang.PersistentVector
+ice-melting-sim.double-pendulum/eval112484 (form-init12335518014890708562.clj:46)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Execution error (ArityException) at ice-melting-sim.double-pendulum/eval112528 (form-init12335518014890708562.clj:46).
+; Wrong number of args (2) passed to: clojure.lang.PersistentVector
+ice-melting-sim.double-pendulum/eval112528 (form-init12335518014890708562.clj:46)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/pendulum-pos
+clj::ice-melting-sim.double-pendulum=> 
+; Execution error (ArityException) at ice-melting-sim.double-pendulum/eval112621 (form-init12335518014890708562.clj:46).
+; Wrong number of args (2) passed to: clojure.lang.PersistentVector
+ice-melting-sim.double-pendulum/eval112621 (form-init12335518014890708562.clj:46)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Execution error (ArityException) at ice-melting-sim.double-pendulum/eval113019 (form-init12335518014890708562.clj:46).
+; Wrong number of args (2) passed to: clojure.lang.PersistentVector
+ice-melting-sim.double-pendulum/eval113019 (form-init12335518014890708562.clj:46)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+[141.37332028975462 50.135659068675395]
+clj::ice-melting-sim.double-pendulum=> 
+[200.00000000000003 319.8076211353316]
+clj::ice-melting-sim.double-pendulum=> 
+state
+[{:angle 0.523598775598299, :velocity 0} {:angle 0.523598775598299, :velocity 0}]
+clj::ice-melting-sim.double-pendulum=> 
+[50 60] {:angle 0.523598775598299, :velocity 0}
+[125.00000000000001 189.9038105676658] {:angle 0.523598775598299, :velocity 0}
+[200.00000000000003 319.8076211353316]
+clj::ice-melting-sim.double-pendulum=> 
+([50 60] [125.00000000000001 189.9038105676658] [200.00000000000003 319.8076211353316])
+clj::ice-melting-sim.double-pendulum=> 
+((1 2) (2 3) (3 4))
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.RT doubleCast RT.java 1355]}]
+ :trace
+ [[clojure.lang.RT doubleCast RT.java 1355]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 31]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 27]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 41]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 37]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.l
+ang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread 
+run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.RT.doubleCast (RT.java:1355)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:31)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:27)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:41)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:37)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.
+java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update1
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+nil 0 0.523598775598299
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.RT doubleCast RT.java 1355]}]
+ :trace
+ [[clojure.lang.RT doubleCast RT.java 1355]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 32]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 27]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 42]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 38]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.l
+ang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread 
+run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.RT.doubleCast (RT.java:1355)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:32)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:27)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:42)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:38)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.
+java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:45:1).
+; Unable to resolve symbol: initial-state in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3881)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/initial-state
+clj::ice-melting-sim.double-pendulum=> 
+0.523598775598299
+clj::ice-melting-sim.double-pendulum=> 
+0.523598775598299
+clj::ice-melting-sim.double-pendulum=> 
+nil nil nil
+; Execution error (NullPointerException) at ice-melting-sim.double-pendulum/update1 (double_pendulum.clj:30).
+; null
+clojure.lang.RT/doubleCast (RT.java:1355)
+ice-melting-sim.double-pendulum/update1 (double_pendulum.clj:30)
+ice-melting-sim.double-pendulum/update1 (double_pendulum.clj:27)
+ice-melting-sim.double-pendulum/eval158706 (form-init12335518014890708562.clj:45)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.RT doubleCast RT.java 1355]}]
+ :trace
+ [[clojure.lang.RT doubleCast RT.java 1355]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 33]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 29]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 43]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 39]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.l
+ang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread 
+run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.RT.doubleCast (RT.java:1355)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:33)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:29)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:43)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:39)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.
+java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+nil 0 0.523598775598299
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.RT doubleCast RT.java 1355]}]
+ :trace
+ [[clojure.lang.RT doubleCast RT.java 1355]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 34]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 29]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 44]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 40]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.l
+ang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread 
+run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.RT.doubleCast (RT.java:1355)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:34)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:29)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:44)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:40)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.
+java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/trace
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update1
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.RT doubleCast RT.java 1355]}]
+ :trace
+ [[clojure.lang.RT doubleCast RT.java 1355]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 37]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 32]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 47]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 43]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.l
+ang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread 
+run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.RT.doubleCast (RT.java:1355)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:37)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:32)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:47)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:43)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.
+java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+@log
+[[nil 0 0.523598775598299]]
+clj::ice-melting-sim.double-pendulum=> 
+(reset! log [])
+[]
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.RT doubleCast RT.java 1355]}]
+ :trace
+ [[clojure.lang.RT doubleCast RT.java 1355]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 37]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 32]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 47]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 43]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.l
+ang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread 
+run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.RT.doubleCast (RT.java:1355)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:37)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:32)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:47)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:43)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.
+java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+@log
+[[nil 0 0.523598775598299]]
+clj::ice-melting-sim.double-pendulum=> 
+(reset! log [])
+[]
+clj::ice-melting-sim.double-pendulum=> 
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 37]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 32]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 47]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 43]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clo
+jure.lang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationT
+hread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:37)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:32)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:47)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:43)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.appl
+yTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313
+)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+@log
+[[0.523598775598299 0 0.523598775598299]
+ [0.5210987755982991 0 0.523598775598299]
+ [0.523598775598299 nil 0.523598775598299]]
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:34:1).
+; Unable to resolve symbol: reset in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6120)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7174)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:32:3).
+; Unable to resolve symbol: log1 in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/log2
+clj::ice-melting-sim.double-pendulum=> 
+; Syntax error compiling at (src/ice_melting_sim/double_pendulum.clj:32:3).
+; Unable to resolve symbol: log1 in this context
+clojure.lang.Compiler/analyze (Compiler.java:6808)
+clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3888)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7109)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler$BodyExpr$Parser/parse (Compiler.java:6118)
+clojure.lang.Compiler$FnMethod/parse (Compiler.java:5467)
+clojure.lang.Compiler$FnExpr/parse (Compiler.java:4029)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7105)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7095)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/access$300 (Compiler.java:38)
+clojure.lang.Compiler$DefExpr$Parser/parse (Compiler.java:596)
+clojure.lang.Compiler/analyzeSeq (Compiler.java:7107)
+clojure.lang.Compiler/analyze (Compiler.java:6789)
+clojure.lang.Compiler/eval (Compiler.java:7181)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/log1
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/reset
+clj::ice-melting-sim.double-pendulum=> 
+[]
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/trace
+clj::ice-melting-sim.double-pendulum=> 
+#'ice-melting-sim.double-pendulum/update1
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 42]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 37]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 53]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 49]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clo
+jure.lang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationT
+hread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:42)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:37)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:53)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:49)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.appl
+yTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313
+)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+@log1
+[[0.523598775598299 0 0.523598775598299]
+ [0.5210987755982991 0 0.523598775598299]
+ [0.523598775598299 nil 0.523598775598299]]
+clj::ice-melting-sim.double-pendulum=> 
+@log2
+[[-0.0025000000000000005 0.5210987755982991] [-0.0024891591025906806 0.5211096164957083]]
+clj::ice-melting-sim.double-pendulum=> 
+(reset)
+[]
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+({:velocity -0.0024891591025906806, :angle 0.5211096164957083} {:velocity -0.0025000000000000005, :angle 0.5210987755982991} {:angle 0.523598775598299})
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 42]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 37]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$reduce1 invokeStatic core.clj 944]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 57]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 53]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clo
+jure.lang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationT
+hread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:42)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:37)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:944)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:57)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:53)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.appl
+yTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313
+)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+(reductions + [1 2 3 4])
+(1 3 6 10)
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :mouse-clicked  function:  #error {
+ :cause clojure.lang.PersistentList cannot be cast to clojure.lang.Associative
+ :via
+ [{:type java.lang.ClassCastException
+   :message clojure.lang.PersistentList cannot be cast to clojure.lang.Associative
+   :at [clojure.lang.RT assoc RT.java 827]}]
+ :trace
+ [[clojure.lang.RT assoc RT.java 827]
+  [clojure.core$assoc__5416 invokeStatic core.clj 191]
+  [clojure.core$assoc__5416 invoke core.clj 190]
+  [ice_melting_sim.double_pendulum$fn__185429 invokeStatic double_pendulum.clj 102]
+  [ice_melting_sim.double_pendulum$fn__185429 invoke double_pendulum.clj 96]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 421]
+  [clojure.lang.Atom swap Atom.java 51]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2353]
+  [
+clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_handler$fn__14352 invoke fun_mode.cljc 43]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_mouseClicked invokeStatic applet.clj 252]
+  [quil.applet$_mouseClicked invoke applet.clj 252]
+  [quil.Applet mouseClicked nil -1]
+  [processing.core.PApplet mouseClicked PApplet.java 2874]
+  [quil.Applet mouseClickedParent nil -1]
+  [sun.reflect.NativeMethodAccessorImpl invoke0 NativeMethodAccessorImpl.java -2]
+  [sun.reflect.NativeMethodAccessorImpl invoke NativeMethodAccessorImpl.java 62]
+  [sun.reflect.DelegatingMethodAccessorImpl invoke DelegatingMethodAccessorImpl.java 43]
+  [java.lang.reflect.Method invoke Method.java 498]
+  [clojure.lang.Reflector invokeMatchingMethod Reflector.java 167]
+  [clojure.lang.Reflector invokeInstanceMethod Reflector.java 102]
+  [quil.applet$_mouseClicked invokeStatic appl
+et.clj 252]
+  [quil.applet$_mouseClicked invoke applet.clj 252]
+  [quil.Applet mouseClicked nil -1]
+  [processing.core.PApplet handleMouseEvent PApplet.java 2754]
+  [quil.Applet handleMouseEvent nil -1]
+  [processing.core.PApplet dequeueEvents PApplet.java 2645]
+  [quil.Applet dequeueEvents nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2486]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: clojure.lang.PersistentList cannot be cast to clojure.lang.Associative
+ at clojure.lang.RT.assoc (RT.java:827)
+    clojure.core$assoc__5416.invokeStatic (core.clj:191)
+    clojure.core/assoc (core.clj:190)
+    ice_melting_sim.double_pendulum$fn__185429.invokeStatic (double_pendulum.clj:102)
+    ice_melting_sim.double_pendulum/fn (double_pendulum.clj:96)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.AFn.applyTo (AFn.java:14
+4)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    clojure.lang.Atom.swap (Atom.java:51)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2353)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_handler$fn__14352.invoke (fun_mode.cljc:43)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_mouseClicked.invokeStatic (applet.clj:252)
+    quil.applet$_mouseClicked.invoke (applet.clj:252)
+    quil.Applet.mouseClicked (:-1)
+    processing.core.PApplet.mouseClicked (PApplet.java:2874)
+    quil.Applet.mouseClickedParent (:-1)
+    sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    sun.reflect.NativeMethodAccessorImpl.invoke (Na
+tiveMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke (Method.java:498)
+    clojure.lang.Reflector.invokeMatchingMethod (Reflector.java:167)
+    clojure.lang.Reflector.invokeInstanceMethod (Reflector.java:102)
+    quil.applet$_mouseClicked.invokeStatic (applet.clj:252)
+    quil.applet$_mouseClicked.invoke (applet.clj:252)
+    quil.Applet.mouseClicked (:-1)
+    processing.core.PApplet.handleMouseEvent (PApplet.java:2754)
+    quil.Applet.handleMouseEvent (:-1)
+    processing.core.PApplet.dequeueEvents (PApplet.java:2645)
+    quil.Applet.dequeueEvents (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2486)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+Exception in  :mouse-clicked  function:  #error {
+ :cause clojure.lang.PersistentList cannot be cast to clojure.lang.Associative
+ :via
+ [{:type java.lang.ClassCastException
+   :message clojure.lang.PersistentList cannot be cast to clojure.lang.Associative
+   :at [clojure.lang.RT assoc RT.java 827]}]
+ :trace
+ [[clojure.lang.RT assoc RT.java 827]
+  [clojure.core$assoc__5416 invokeStatic core.clj 191]
+  [clojure.core$assoc__5416 invoke core.clj 190]
+  [ice_melting_sim.double_pendulum$fn__185553 invokeStatic double_pendulum.clj 102]
+  [ice_melting_sim.double_pendulum$fn__185553 invoke double_pendulum.clj 96]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 421]
+  [clojure.lang.Atom swap Atom.java 51]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2353]
+  [
+clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_handler$fn__14352 invoke fun_mode.cljc 43]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_mouseClicked invokeStatic applet.clj 252]
+  [quil.applet$_mouseClicked invoke applet.clj 252]
+  [quil.Applet mouseClicked nil -1]
+  [processing.core.PApplet mouseClicked PApplet.java 2874]
+  [quil.Applet mouseClickedParent nil -1]
+  [sun.reflect.NativeMethodAccessorImpl invoke0 NativeMethodAccessorImpl.java -2]
+  [sun.reflect.NativeMethodAccessorImpl invoke NativeMethodAccessorImpl.java 62]
+  [sun.reflect.DelegatingMethodAccessorImpl invoke DelegatingMethodAccessorImpl.java 43]
+  [java.lang.reflect.Method invoke Method.java 498]
+  [clojure.lang.Reflector invokeMatchingMethod Reflector.java 167]
+  [clojure.lang.Reflector invokeInstanceMethod Reflector.java 102]
+  [quil.applet$_mouseClicked invokeStatic appl
+et.clj 252]
+  [quil.applet$_mouseClicked invoke applet.clj 252]
+  [quil.Applet mouseClicked nil -1]
+  [processing.core.PApplet handleMouseEvent PApplet.java 2754]
+  [quil.Applet handleMouseEvent nil -1]
+  [processing.core.PApplet dequeueEvents PApplet.java 2645]
+  [quil.Applet dequeueEvents nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2486]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.ClassCastException: clojure.lang.PersistentList cannot be cast to clojure.lang.Associative
+ at clojure.lang.RT.assoc (RT.java:827)
+    clojure.core$assoc__5416.invokeStatic (core.clj:191)
+    clojure.core/assoc (core.clj:190)
+    ice_melting_sim.double_pendulum$fn__185553.invokeStatic (double_pendulum.clj:102)
+    ice_melting_sim.double_pendulum/fn (double_pendulum.clj:96)
+    clojure.lang.AFn.applyToHelper (AFn.java:156)
+    clojure.lang.AFn.applyTo (AFn.java:14
+4)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:421)
+    clojure.lang.Atom.swap (Atom.java:51)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2353)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_handler$fn__14352.invoke (fun_mode.cljc:43)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_mouseClicked.invokeStatic (applet.clj:252)
+    quil.applet$_mouseClicked.invoke (applet.clj:252)
+    quil.Applet.mouseClicked (:-1)
+    processing.core.PApplet.mouseClicked (PApplet.java:2874)
+    quil.Applet.mouseClickedParent (:-1)
+    sun.reflect.NativeMethodAccessorImpl.invoke0 (NativeMethodAccessorImpl.java:-2)
+    sun.reflect.NativeMethodAccessorImpl.invoke (Na
+tiveMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke (Method.java:498)
+    clojure.lang.Reflector.invokeMatchingMethod (Reflector.java:167)
+    clojure.lang.Reflector.invokeInstanceMethod (Reflector.java:102)
+    quil.applet$_mouseClicked.invokeStatic (applet.clj:252)
+    quil.applet$_mouseClicked.invoke (applet.clj:252)
+    quil.Applet.mouseClicked (:-1)
+    processing.core.PApplet.handleMouseEvent (PApplet.java:2754)
+    quil.Applet.handleMouseEvent (:-1)
+    processing.core.PApplet.dequeueEvents (PApplet.java:2645)
+    quil.Applet.dequeueEvents (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2486)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+; Evaluating file: double_pendulum.clj
+; Syntax error macroexpanding clojure.core/defn at (src/ice_melting_sim/double_pendulum.clj:53:1).
+; {:keys [state]} - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+(:as all-state) - failed: Extra input at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+; Evaluation of file double_pendulum.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 44]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 39]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.RT seq RT.java 535]
+  [clojure.core$seq__5402 invokeStatic core.clj 137]
+  [clojure.core$reduce1 invokeStatic core.clj 930]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 64]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 55]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [cl
+ojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stack
+trace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:44)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:39)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.RT.seq (RT.java:535)
+    clojure.core$seq__5402.invokeStatic (core.clj:137)
+    clojure.core$reduce1.invokeStatic (core.clj:930)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:64)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:55)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.co
+re$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+(Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 35]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 31]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.Cons next Cons.java 39]
+  [clojure.lang.RT next RT.java 713]
+  [clojure.core$next__5386 invokeStatic core.clj 64]
+  [clojure.core$print_sequential invokeStatic core_print.clj 64]
+  [clojure.core$fn__7310 invokeStatic core_print.clj 174]
+  [clojure.core$fn__7310 invoke core_print.clj 174]
+  [clojure.lang.MultiFn invoke MultiFn.java 234]
+  [clojure.core$pr_on invokeStatic core.clj 3674]
+  [clojure.core$pr invokeStatic core.clj 3677]
+  [clojure.core$pr invoke core.clj 3677]
+  
+[clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.RestFn applyTo RestFn.java 132]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$prn invokeStatic core.clj 3714]
+  [clojure.core$prn doInvoke core.clj 3714]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [ice_melting_sim.double_pendulum$spy invokeStatic double_pendulum.clj 42]
+  [ice_melting_sim.double_pendulum$spy invoke double_pendulum.clj 41]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 55]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 45]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeSta
+tic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stacktrace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:35)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:31)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.
+sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:713)
+    clojure.core$next__5386.invokeStatic (core.clj:64)
+    clojure.core$print_sequential.invokeStatic (core_print.clj:64)
+    clojure.core$fn__7310.invokeStatic (core_print.clj:174)
+    clojure.core/fn (core_print.clj:174)
+    clojure.lang.MultiFn.invoke (MultiFn.java:234)
+    clojure.core$pr_on.invokeStatic (core.clj:3674)
+    clojure.core$pr.invokeStatic (core.clj:3677)
+    clojure.core$pr.invoke (core.clj:3677)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$prn.invokeStatic (core.clj:3714)
+    clojure.core$prn.doInvoke (core.clj:3714)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    ice_melting_sim.double_pendulum$spy.invokeStatic (double_pendulum.clj:42)
+    ice_melting_sim.double_pendulum$spy.invoke (double_pendulum.clj:41)
+    ice_m
+elting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:55)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:45)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.core$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke 
+(applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 35]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 31]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.RT seq RT.java 535]
+  [clojure.core$seq__5402 invokeStatic core.clj 137]
+  [clojure.core$reduce1 invokeStatic core.clj 930]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 54]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 45]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [cl
+ojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stack
+trace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:35)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:31)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.RT.seq (RT.java:535)
+    clojure.core$seq__5402.invokeStatic (core.clj:137)
+    clojure.core$reduce1.invokeStatic (core.clj:930)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:54)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:45)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.co
+re$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+[{:angle 0.523598775598299, :velocity 0} {:angle 1.0471975511965976, :velocity 0} {:angle 1.5707963267948966}]
+Exception in  :update  function:  #error {
+ :cause nil
+ :via
+ [{:type java.lang.NullPointerException
+   :message nil
+   :at [clojure.lang.Numbers add Numbers.java 3753]}]
+ :trace
+ [[clojure.lang.Numbers add Numbers.java 3753]
+  [ice_melting_sim.double_pendulum$update1 invokeStatic double_pendulum.clj 35]
+  [ice_melting_sim.double_pendulum$update1 invoke double_pendulum.clj 31]
+  [clojure.core$reductions$fn__8530 invoke core.clj 7229]
+  [clojure.lang.LazySeq sval LazySeq.java 42]
+  [clojure.lang.LazySeq seq LazySeq.java 51]
+  [clojure.lang.RT seq RT.java 535]
+  [clojure.core$seq__5402 invokeStatic core.clj 137]
+  [clojure.core$reduce1 invokeStatic core.clj 930]
+  [clojure.core$reverse invokeStatic core.clj 947]
+  [clojure.core$reverse invoke core.clj 947]
+  [ice_melting_sim.double_pendulum$update_state invokeStatic double_pendulum.clj 55]
+  [ice_melting_sim.double_pendulum$update_state invoke double_pendulum.clj 45]
+  [clojure.lang.AFn applyToHelper AFn.java 154]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [cl
+ojure.lang.Var applyTo Var.java 705]
+  [clojure.core$apply invokeStatic core.clj 665]
+  [clojure.core$apply invoke core.clj 660]
+  [quil.middlewares.pause_on_error$wrap_fn$fn__14380 doInvoke pause_on_error.clj 12]
+  [clojure.lang.RestFn invoke RestFn.java 408]
+  [clojure.lang.Atom swap Atom.java 37]
+  [clojure.core$swap_BANG_ invokeStatic core.clj 2352]
+  [clojure.core$swap_BANG_ invoke core.clj 2345]
+  [quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346 invoke fun_mode.cljc 13]
+  [quil.middlewares.safe_fns$wrap_fn$fn__260 invoke safe_fns.clj 8]
+  [quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318 invoke bind_output.clj 21]
+  [quil.applet$_draw invokeStatic applet.clj 217]
+  [quil.applet$_draw invoke applet.clj 215]
+  [quil.Applet draw nil -1]
+  [processing.core.PApplet handleDraw PApplet.java 2475]
+  [quil.Applet handleDraw nil -1]
+  [processing.awt.PSurfaceAWT$12 callDraw PSurfaceAWT.java 1547]
+  [processing.core.PSurfaceNone$AnimationThread run PSurfaceNone.java 313]]} 
+stack
+trace:  java.lang.NullPointerException: null
+ at clojure.lang.Numbers.add (Numbers.java:3753)
+    ice_melting_sim.double_pendulum$update1.invokeStatic (double_pendulum.clj:35)
+    ice_melting_sim.double_pendulum$update1.invoke (double_pendulum.clj:31)
+    clojure.core$reductions$fn__8530.invoke (core.clj:7229)
+    clojure.lang.LazySeq.sval (LazySeq.java:42)
+    clojure.lang.LazySeq.seq (LazySeq.java:51)
+    clojure.lang.RT.seq (RT.java:535)
+    clojure.core$seq__5402.invokeStatic (core.clj:137)
+    clojure.core$reduce1.invokeStatic (core.clj:930)
+    clojure.core$reverse.invokeStatic (core.clj:947)
+    clojure.core$reverse.invoke (core.clj:947)
+    ice_melting_sim.double_pendulum$update_state.invokeStatic (double_pendulum.clj:55)
+    ice_melting_sim.double_pendulum$update_state.invoke (double_pendulum.clj:45)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.lang.Var.applyTo (Var.java:705)
+    clojure.core$apply.invokeStatic (core.clj:665)
+    clojure.co
+re$apply.invoke (core.clj:660)
+    quil.middlewares.pause_on_error$wrap_fn$fn__14380.doInvoke (pause_on_error.clj:12)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.lang.Atom.swap (Atom.java:37)
+    clojure.core$swap_BANG_.invokeStatic (core.clj:2352)
+    clojure.core$swap_BANG_.invoke (core.clj:2345)
+    quil.middlewares.fun_mode$wrap_draw_update$quil_draw__14346.invoke (fun_mode.cljc:13)
+    quil.middlewares.safe_fns$wrap_fn$fn__260.invoke (safe_fns.clj:8)
+    quil.middlewares.bind_output$bind_output$iter__298__302$fn__303$fn__318.invoke (bind_output.clj:21)
+    quil.applet$_draw.invokeStatic (applet.clj:217)
+    quil.applet$_draw.invoke (applet.clj:215)
+    quil.Applet.draw (:-1)
+    processing.core.PApplet.handleDraw (PApplet.java:2475)
+    quil.Applet.handleDraw (:-1)
+    processing.awt.PSurfaceAWT$12.callDraw (PSurfaceAWT.java:1547)
+    processing.core.PSurfaceNone$AnimationThread.run (PSurfaceNone.java:313)
+
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: double_pendulum.clj
+#'ice-melting-sim.double-pendulum/double-pendulum-sim
+clj::ice-melting-sim.double-pendulum=> 
+; Evaluating file: core.clj
+#'ice-melting-sim.core/ice-melting-sim
+clj::ice-melting-sim.core=> 

@@ -2,45 +2,73 @@
   (:require [quil.core :as q]
             [quil.middleware :as m]))
 
+(def grid-width 100)
+(def grid-height 100)
+
 (defn setup []
+  ; Initially set the background to the "frozen" color
+  (q/background 125, 195, 245)
   ; Set frame rate to 30 frames per second.
-  (q/frame-rate 30)
+  (q/frame-rate 120)
   ; Set color mode to HSB (HSV) instead of default RGB.
-  (q/color-mode :hsb)
+  (q/color-mode :rgb)
   ; setup function returns initial state. It contains
   ; circle color and position.
-  {:color 0
-   :angle 0})
-
-(defn update-state [state]
-  ; Update sketch state by changing circle color and position.
-  {:color (mod (+ (:color state) 0.7) 255)
-   :angle (+ (:angle state) 0.1)})
+  {:grid (into {} (for [x (range grid-height) y (range grid-width)] [[x y] :frozen]))
+   :paused false})
 
 (defn draw-state [state]
-  ; Clear the sketch by filling it with light-grey color.
-  (q/background 240)
-  ; Set circle color.
-  (q/fill (:color state) 255 255)
-  ; Calculate x and y coordinates of the circle.
-  (let [angle (:angle state)
-        x (* 150 (q/cos angle))
-        y (* 150 (q/sin angle))]
-    ; Move origin point to the center of the sketch.
-    (q/with-translation [(/ (q/width) 2)
-                         (/ (q/height) 2)]
-      ; Draw the circle.
-      (q/ellipse x y 100 100))))
+  ;; We don't need to clear the sketch on each draw because cells will never re-freeze
+  
+  (let [sq-height (int (/ (q/width) grid-width))
+        sq-width (int (/ (q/height) grid-height))]
+    (q/no-stroke)
+    (q/fill 203, 229, 247)
+    (doseq [[[x y] state] (filter #(= (second %) :melted) (:grid state))]
+      (q/rect (* x sq-width) (* y sq-height) sq-width sq-height))))
 
+(def log (atom []))
+(defn trace [msg x]
+  (swap! log conj msg)
+  x)
+
+(defn update-cell [grid coord state]
+  (let [frozen-neighbors (->> (mapv #(mapv + %1 %2)
+                             (repeat coord)
+                             [[0 -1] [0 1] [1 0] [-1 0]])
+                       (map #(grid %))
+                       (filter #(= :frozen %))
+                       count)
+        melt? (case frozen-neighbors
+                0 (<= (rand) (/ 40 2000))
+                1 (<= (rand) (/ 30 2000))
+                2 (<= (rand) (/ 20 2000))
+                3 (<= (rand) (/ 10 2000))
+                4 (<= (rand) (/ 1 100000)))]
+    (cond
+      (= state :melted) (trace {:coord coord :state state :frozen-neighbors frozen-neighbors :path 1} :melted)
+      melt? (trace {:coord coord :state state :frozen-neighbors frozen-neighbors :path 2} :melted)
+      :else (trace {:coord coord :state state :frozen-neighbors frozen-neighbors :path 3} :frozen))))
+
+(defn update-state [state]
+  (assoc state :grid (into {} (map (fn [[k v]] [k (update-cell (:grid state) k v)])) (:grid state))))
 
 (q/defsketch ice-melting-sim
-  :title "You spin my circle right round"
+  :title "Ice melting"
   :size [500 500]
   ; setup function called only once, during sketch initialization.
   :setup setup
   ; update-state is called on each iteration before draw-state.
   :update update-state
   :draw draw-state
+  :mouse-clicked (fn [state evt]
+                   (if (= :left (:button evt))
+                     (if (:paused state)
+                       (do (q/start-loop)
+                           (assoc state :paused false))
+                       (do (q/no-loop)
+                           (assoc state :paused true)))
+                     state))
   :features [:keep-on-top]
   ; This sketch uses functional-mode middleware.
   ; Check quil wiki for more info about middlewares and particularly
