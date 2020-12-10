@@ -77,24 +77,25 @@
     (q/with-fill 0
       (q/ellipse x-origin y-origin 10 10))))
 
-(q/defsketch double-pendulum-sim
-  :title "Double pendulum"
-  :size [700 700]
+(defn start []
+  (q/sketch
+    :title "Double pendulum"
+    :size [700 700]
   ; setup function called only once, during sketch initialization.
-  :setup setup
+    :setup setup
   ; update-state is called on each iteration before draw-state.
-  :update update-state
-  :draw draw-state
-  :mouse-clicked (fn [state evt]
-                   (if (= :left (:button evt))
-                     (if (:paused state)
-                       (do (q/start-loop)
-                           (assoc state :paused false))
-                       (do (q/no-loop)
-                           (assoc state :paused true)))
-                     state))
-  :features [:keep-on-top]
+    :update update-state
+    :draw draw-state
+    :mouse-clicked (fn [state evt]
+                     (if (= :left (:button evt))
+                       (if (:paused state)
+                         (do (q/start-loop)
+                             (assoc state :paused false))
+                         (do (q/no-loop)
+                             (assoc state :paused true)))
+                       state))
+    :features [:keep-on-top]
   ; This sketch uses functional-mode middleware.
   ; Check quil wiki for more info about middlewares and particularly
   ; fun-mode.
-  :middleware [m/fun-mode m/pause-on-error])
+    :middleware [m/fun-mode m/pause-on-error]))
