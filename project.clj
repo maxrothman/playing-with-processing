@@ -5,4 +5,11 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [quil "3.1.0"]]
-  :java-cmd "/Users/maxrothman/.jenv/shims/java")
+  :plugins [[io.taylorwood/lein-native-image "0.3.1"]]
+  :native-image {:name "ice-melting-sim"
+                 :graal-bin "graalvm-ce-java8-20.3.0/Contents/Home/"
+                 :opts ["--no-server" "--report-unsupported-elements-at-runtime" "--no-fallback"]}
+  :profiles {:uberjar {:aot :all
+                       :native-image {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}}
+  :main "ice-melting-sim.core"
+)

@@ -1,6 +1,7 @@
 (ns ice-melting-sim.core
   (:require [quil.core :as q]
-            [quil.middleware :as m]))
+            [quil.middleware :as m])
+  (:gen-class))
 
 (def grid-width 100)
 (def grid-height 100)
@@ -74,3 +75,5 @@
   ; Check quil wiki for more info about middlewares and particularly
   ; fun-mode.
   :middleware [m/fun-mode])
+
+(defn -main [& args])
