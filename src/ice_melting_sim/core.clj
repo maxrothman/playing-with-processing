@@ -20,7 +20,7 @@
 
 (defn draw-state [state]
   ;; We don't need to clear the sketch on each draw because cells will never re-freeze
-  
+
   (let [sq-height (int (/ (q/width) grid-width))
         sq-width (int (/ (q/height) grid-height))]
     (q/no-stroke)
@@ -35,11 +35,11 @@
 
 (defn update-cell [grid coord state]
   (let [frozen-neighbors (->> (mapv #(mapv + %1 %2)
-                             (repeat coord)
-                             [[0 -1] [0 1] [1 0] [-1 0]])
-                       (map #(grid %))
-                       (filter #(= :frozen %))
-                       count)
+                                    (repeat coord)
+                                    [[0 -1] [0 1] [1 0] [-1 0]])
+                              (map #(grid %))
+                              (filter #(= :frozen %))
+                              count)
         melt? (case frozen-neighbors
                 0 (<= (rand) (/ 40 2000))
                 1 (<= (rand) (/ 30 2000))
@@ -54,26 +54,25 @@
 (defn update-state [state]
   (assoc state :grid (into {} (map (fn [[k v]] [k (update-cell (:grid state) k v)])) (:grid state))))
 
-(q/defsketch ice-melting-sim
-  :title "Ice melting"
-  :size [500 500]
-  ; setup function called only once, during sketch initialization.
-  :setup setup
-  ; update-state is called on each iteration before draw-state.
-  :update update-state
-  :draw draw-state
-  :mouse-clicked (fn [state evt]
-                   (if (= :left (:button evt))
-                     (if (:paused state)
-                       (do (q/start-loop)
-                           (assoc state :paused false))
-                       (do (q/no-loop)
-                           (assoc state :paused true)))
-                     state))
-  :features [:keep-on-top]
-  ; This sketch uses functional-mode middleware.
-  ; Check quil wiki for more info about middlewares and particularly
-  ; fun-mode.
-  :middleware [m/fun-mode])
-
-(defn -main [& args])
+(defn -main [& args]
+  (q/sketch
+   :title "Ice melting"
+   :size [500 500]
+   ; setup function called only once, during sketch initialization.
+   :setup setup
+   ; update-state is called on each iteration before draw-state.
+   :update update-state
+   :draw draw-state
+   :mouse-clicked (fn [state evt]
+                    (if (= :left (:button evt))
+                      (if (:paused state)
+                        (do (q/start-loop)
+                            (assoc state :paused false))
+                        (do (q/no-loop)
+                            (assoc state :paused true)))
+                      state))
+   :features [:exit-on-close]
+   ; This sketch uses functional-mode middleware.
+   ; Check quil wiki for more info about middlewares and particularly
+   ; fun-mode.
+   :middleware [m/fun-mode]))

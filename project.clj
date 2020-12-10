@@ -9,8 +9,10 @@
   :native-image {:name "ice-melting-sim"
                  :graal-bin "graalvm-ce-java8-20.3.0/Contents/Home/"
                  :opts ["--no-server"
-                        "--no-fallback"]}
+                        "--no-fallback"
+                        "--report-unsupported-elements-at-runtime"]}
   :profiles {:uberjar {:aot :all
                        :native-image {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}}
-  :main "ice-melting-sim.core"
+  :main ice-melting-sim.core
+  :aot [ice-melting-sim.core]
 )
