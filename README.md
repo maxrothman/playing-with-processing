@@ -1,6 +1,10 @@
 # ice-melting-sim
 
-A Quil sketch designed to ... well, that part is up to you.
+To distribute, will need to figure out how to graalvm-compile or make runnable jar:
+- https://github.com/lread/clj-graal-docs#clojure-version
+- https://github.com/quil/quil/wiki/Runnable-jar
+- https://github.com/taylorwood/lein-native-image (probably won't work)
+- https://blog.taylorwood.io/2018/05/02/graalvm-clojure.html
 
 ## Usage
 
